@@ -27,8 +27,8 @@ int main() {
     float area01;  // Variavél da tamanho da cidade
     float pib01 ;  // Variavél do pib percapita
 
-    printf("digite o código da carta :  ");
-    scanf("%s" , codigo01);
+    printf("digite o código da carta :  "); //onde vai exibir a solicitação do código da carta
+    scanf("%s",codigo01); // nessa linha vai capturar o código...
 
     printf("digite o Estado da carta :");
     scanf("%s",estado01);
@@ -47,8 +47,8 @@ int main() {
 
     printf("digite aqui a renda do pib per capita :");
     scanf("%f", &pib01);
-
-    printf("Carta cadastrada com as seguintes informaçoes:\n" );
+                                    //exibição final do cadastro da primeira carta
+    printf("Carta cadastrada com as seguintes informações:\n" );
     printf("código :%s\n" , codigo01);
     printf("Estado :%s\n" , estado01);
     printf("cidade :%s\n" , cidade01);
@@ -60,7 +60,7 @@ int main() {
 
     //                               Cadastro da 2ª carta para o supertrunfo
 
-    char codigo02[15]; // Variavél do codigo da carta
+    char codigo02[15]; // Variavél do codigo da 2ª carta
     char estado02[15]; // Variavél do Estado
     char cidade02[20]; // Variavél da cidade
     int populacao02 ;  // Variavél da população
@@ -68,8 +68,8 @@ int main() {
     float area02;  // Variavél da tamanho da cidade
     float pib02 ;  // Variavél do pib percapita
 
-    printf("digite o código da carta :  ");
-    scanf("%s" , codigo02);
+    printf("digite o código da carta :  "); 
+    scanf("%s",codigo02);
 
     printf("digite o Estado da carta :");
     scanf("%s",estado02);
@@ -88,8 +88,8 @@ int main() {
 
     printf("digite aqui a renda do pib per capita :");
     scanf("%f", &pib02);
-
-     printf("Carta cadastrada com as seguintes informaçoes:\n" );
+                             // aonde vai apresentar as informações aprestada da 2º carta
+     printf("Carta cadastrada com as seguintes informações:\n" );
     printf("código :%s\n" , codigo02);
     printf("Estado :%s\n" , estado02);
     printf("cidade :%s\n" , cidade02);
