@@ -17,6 +17,86 @@ int main() {
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    //                        Cadastro da primeira carta do SuperTrunfo
+
+    char codigo01[15]; // Variavél do codigo da carta
+    char estado01[15]; // Variavél do Estado
+    char cidade01[20]; // Variavél da cidade
+    int populacao01 ;  // Variavél da população
+    int turistico01; // Variavél dos pontos turísticos
+    float area01;  // Variavél da tamanho da cidade
+    float pib01 ;  // Variavél do pib percapita
+
+    printf("digite o código da carta :  ");
+    scanf("%s" , codigo01);
+
+    printf("digite o Estado da carta :");
+    scanf("%s",estado01);
+
+    printf("digite o nome da cidade da carta :");
+    scanf("%s",cidade01);
+
+    printf("digite a quantidade populacional:");
+    scanf("%d", &populacao01);
+
+    printf("digite a quantidade de ponto turístico da cidade: ");
+    scanf("%d" , &turistico01);
+
+    printf("digite a o tamanho no Estado em km² : ");
+    scanf("%f", &area01);
+
+    printf("digite aqui a renda do pib per capita :");
+    scanf("%f", &pib01);
+
+    printf("Carta cadastrada com as seguintes informaçoes:\n" );
+    printf("código :%s\n" , codigo01);
+    printf("Estado :%s\n" , estado01);
+    printf("cidade :%s\n" , cidade01);
+    printf("população :%d\n" , populacao01);
+    printf("pontos turísticos :%d\n" , turistico01);
+    printf("km² :%.3f\n" , area01);
+    printf("Renda percapita :%.3f $\n " , pib01);
+  
+
+    //                               Cadastro da 2ª carta para o supertrunfo
+
+    char codigo02[15]; // Variavél do codigo da carta
+    char estado02[15]; // Variavél do Estado
+    char cidade02[20]; // Variavél da cidade
+    int populacao02 ;  // Variavél da população
+    int turistico02; // Variavél dos pontos turísticos
+    float area02;  // Variavél da tamanho da cidade
+    float pib02 ;  // Variavél do pib percapita
+
+    printf("digite o código da carta :  ");
+    scanf("%s" , codigo02);
+
+    printf("digite o Estado da carta :");
+    scanf("%s",estado02);
+
+    printf("digite o nome da cidade da carta :");
+    scanf("%s",cidade02);
+
+    printf("digite a quantidade populacional:");
+    scanf("%d", &populacao02);
+
+    printf("digite a quantidade de ponto turístico da cidade: ");
+    scanf("%d" , &turistico02);
+
+    printf("digite a o tamanho no Estado em km² : ");
+    scanf("%f", &area02);
+
+    printf("digite aqui a renda do pib per capita :");
+    scanf("%f", &pib02);
+
+     printf("Carta cadastrada com as seguintes informaçoes:\n" );
+    printf("código :%s\n" , codigo02);
+    printf("Estado :%s\n" , estado02);
+    printf("cidade :%s\n" , cidade02);
+    printf("população :%d\n" , populacao02);
+    printf("pontos turísticos :%d\n" , turistico02);
+    printf("km² :%.3f\n" , area02);
+    printf("Renda percapita :%.3f $\n", pib02);
 
     return 0;
 }
