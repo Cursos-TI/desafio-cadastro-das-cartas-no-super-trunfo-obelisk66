@@ -55,8 +55,8 @@ int main() {
     printf("cidade :%s\n" , cidade01);
     printf("população :%d\n" , populacao01);
     printf("pontos turísticos :%d\n" , turistico01);
-    printf("km² :%.3f\n km" , area01);
-    printf("Renda percapita :%.3f $\n " , pib01);
+    printf("km² :%.3fkm²\n " , area01);
+    printf("Renda percapita :%.3f\n " , pib01);
   
 
     //                               Cadastro da 2ª carta para o supertrunfo
@@ -97,8 +97,8 @@ int main() {
     printf("cidade :%s\n" , cidade02);
     printf("população :%d\n" , populacao02);
     printf("pontos turísticos :%d\n" , turistico02);
-    printf("km² :%.3f\n" , area02);
-    printf("Renda percapita :%.3f $\n", pib02);
+    printf("km² :%.3fkm²\n" , area02);
+    printf("Renda percapita :%.3f  bilhões de reais\n", pib02);
 
     return 0;
 }
