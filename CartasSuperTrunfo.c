@@ -20,13 +20,14 @@ int main() {
     //                        Cadastro da primeira carta do SuperTrunfo
 
     char codigo01[15]; // Variavél do codigo da carta
-    char estado01[15]; // Variavél do Estado
+    char estado01[10]; // Variavél do Estado
     char cidade01[20]; // Variavél da cidade
     int populacao01 ;  // Variavél da população
     int turistico01; // Variavél dos pontos turísticos
     float area01;  // Variavél da tamanho da cidade
     float pib01 ;  // Variavél do pib percapita
 
+    printf("carta 01: \n");
     printf("digite o código da carta :  "); //onde vai exibir a solicitação do código da carta
     scanf("%s",codigo01); // nessa linha vai capturar o código...
 
@@ -42,7 +43,7 @@ int main() {
     printf("digite a quantidade de ponto turístico da cidade: ");
     scanf("%d" , &turistico01);
 
-    printf("digite a o tamanho no Estado em km² : ");
+    printf("digite o tamanho sa cidade em km² : ");
     scanf("%f", &area01);
 
     printf("digite aqui a renda do pib per capita :");
@@ -54,20 +55,21 @@ int main() {
     printf("cidade :%s\n" , cidade01);
     printf("população :%d\n" , populacao01);
     printf("pontos turísticos :%d\n" , turistico01);
-    printf("km² :%.3f\n" , area01);
+    printf("km² :%.3f\n km" , area01);
     printf("Renda percapita :%.3f $\n " , pib01);
   
 
     //                               Cadastro da 2ª carta para o supertrunfo
 
     char codigo02[15]; // Variavél do codigo da 2ª carta
-    char estado02[15]; // Variavél do Estado
+    char estado02[10]; // Variavél do Estado
     char cidade02[20]; // Variavél da cidade
     int populacao02 ;  // Variavél da população
     int turistico02; // Variavél dos pontos turísticos
     float area02;  // Variavél da tamanho da cidade
     float pib02 ;  // Variavél do pib percapita
 
+    printf("carta 02: \n");
     printf("digite o código da carta :  "); 
     scanf("%s",codigo02);
 
